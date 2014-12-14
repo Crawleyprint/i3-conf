@@ -70,8 +70,8 @@ bindsym $mod+f fullscreen
 
 
 # bind media keys to controll, well, media
-bindsym XF86AudioRaiseVolume exec amixer -q sset Master 10%+
-bindsym XF86AudioLowerVolume exec amixer -q sset Master 10%-
+bindsym XF86AudioRaiseVolume exec amixer -q sset Master 3%+
+bindsym XF86AudioLowerVolume exec amixer -q sset Master 3%-
 bindsym XF86AudioMute exec amixer set Master toggle
 
 # change container layout (stacked, tabbed, toggle split)
